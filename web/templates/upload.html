@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>手写数字识别</title>
+
+
+<body>
+    <body bgcolor="Aquamarine ">
+    <h1>先上传数字图片后预测哦</h1>
+    <form action="" enctype='multipart/form-data' method='POST'>
+        <input type="file" name="file" style="margin-top:20px;"/>
+        <br>
+        <input type="submit" value="上传" class="button-new" style="margin-top:15px;"/>
+    </form> 
+    <br>
+    <form method="get" action="http://127.0.0.1:5000/">
+    <button type="submit">图片预测</button>
+    </form>
+
+</body>
+</html>
